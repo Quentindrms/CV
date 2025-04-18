@@ -1,0 +1,192 @@
+@font-face {
+    font-family: "glacial-indifference-bold";
+    src: url("./fonts/glacial-indifference.bold.otf");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "glacial-indifference-regular";
+    src: url("./fonts/glacial-indifference.regular.otf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "gidole-regular";
+    src: url("./fonts/Gidole-Regular.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    background-color: #eff9f2;
+}
+
+.top-line{
+    background-color: #78a1bb;
+    height: 240px;
+    width: 101%;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    position: relative;
+    top: 0px;
+    left: -15px;
+}
+
+.photo{
+    width: 230px;
+    height: auto;
+    clip-path: circle(40%);
+
+    position : absolute;
+    left: 90px;
+    top: -40px;
+}
+
+.left-column{
+    position: absolute;
+    top: 0px;
+    left: 10px;
+
+    background-color: #2f2f3a;
+    max-width: 400px;
+    height: -500px;
+    height: 1300px;
+}
+
+.name{
+    color: #2f2f3a;
+
+    position: absolute;
+    top: 60px;
+    left: 450px;
+
+    text-align: center;
+    font-family: 'gidole-regular', sans-serif;
+    font-size: 26px;
+}
+
+.description{
+    color: #2f2f3a;
+    position: absolute;
+    top: 110px;
+    left: 450px;
+
+    text-align: center;
+    font-family: 'gidole-regular', sans-serif;
+    font-size: 26px;
+}
+
+.title{
+    color: #78a1bb;
+    font-size: 24px;
+    font-family: 'gidole-regular', sans-serif;
+
+}
+
+.title-left{
+    color: #78a1bb;
+    font-family: 'gidole-regular', sans-serif;
+
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 10%;
+    font-size: 24px;
+
+    position: relative;
+    top: 210px;
+}
+
+.introduction{
+    color: #eff9f2;
+    font-family: 'glacial-indifference-regular', sans-serif;
+
+    margin-left: 10%;
+    margin-right: 10%;
+
+    line-height: 24px;;
+
+    text-align: justify;
+    position: relative;
+    top: 210px;;
+}
+
+.contact{
+    color: #eff9f2;
+    font-family: 'glacial-indifference-regular', sans-serif;
+
+    line-height: 24px;
+
+    margin-left: 0%;
+    position: relative;
+    top: 210px;
+}
+
+.contact a{
+    color: #eff9f2;
+    text-decoration: none;
+    font-family: 'glacial-indifference-regular', sans-serif;
+}
+
+.contact a:hover{
+    text-decoration: underline;
+    color: #78a1bb;
+}
+
+.competences{
+    color: #eff9f2;
+    font-family: 'glacial-indifference-regular', sans-serif;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: justify;
+    line-height: 24px;
+
+    position: relative;
+    top: 210px;
+}
+
+.list-interest{
+    color: #eff9f2;
+    font-family: 'glacial-indifference-regular', sans-serif;
+
+    text-align: center;
+    line-height: 24px;
+
+    list-style: none;
+    margin-left: 0;
+    position: relative;
+    top: 210px;
+}
+
+.main-part{
+    position: absolute;
+    top: 230px;
+    left: 460px;
+}
+
+.post-title{
+    font-family: 'glacial-indifference-bold', sans-serif;
+    font-size: 22px;
+    line-height: 5px;
+}
+
+.post-info{
+    font-family: 'glacial-indifference-regular', sans-serif;
+    line-height: 5px;
+    font-size: 20px;
+}
+
+.post-description{
+    font-family: 'glacial-indifference-regular', sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.school-description{
+    line-height: 10px;
+    font-family: 'glacial-indifference-regular', sans-serif;
+    font-size: 18px;
+}
