@@ -1,3 +1,4 @@
+/** Importation des polices d'écritures **/
 @font-face {
     font-family: "glacial-indifference-bold";
     src: url("./fonts/glacial-indifference.bold.otf");
@@ -19,16 +20,11 @@
     font-style: normal;
 }
 
-@font-face {
-    font-family: "gidole-regular-bold";
-    src: url("./fonts/Gidole-Regular.ttf");
-    font-weight: bold;
-    font-style: normal;
-}
-
 body{
     background-color: #eff9f2;
 }
+
+/** header duu cv **/
 
 .top-line{
     background-color: #78a1bb;
@@ -43,6 +39,8 @@ body{
     left: -15px;
 }
 
+/** Photo du bord gauche **/
+
 .photo{
     width: 230px;
     height: auto;
@@ -52,6 +50,8 @@ body{
     left: 90px;
     top: -40px;
 }
+
+/** Colonne gauche du CV **/
 
 .left-column{
     position: absolute;
@@ -64,6 +64,8 @@ body{
     height: 1300px;
 }
 
+/** Nom (sommet du cv) **/
+
 .name{
     color: #2f2f3a;
 
@@ -75,6 +77,8 @@ body{
     text-transform: uppercase
 }
 
+/** Ligne se situant sous le nom **/
+
 .description{
     color: #2f2f3a;
     position: absolute;
@@ -85,6 +89,8 @@ body{
     font-size: 40px;
 }
 
+/** Titres bleus se trouvant dans la partie principale **/
+
 .title{
     color: #78a1bb;
     font-size: 24px;
@@ -93,6 +99,8 @@ body{
     text-transform: uppercase;
 
 }
+
+/** Titres du menu gauche **/
 
 .title-left{
     color: #78a1bb;
@@ -109,6 +117,8 @@ body{
     top: 210px;
 }
 
+/** Bloc d'introduction **/
+
 .introduction{
     color: #eff9f2;
     font-family: 'glacial-indifference-regular', sans-serif;
@@ -123,6 +133,8 @@ body{
     top: 210px;;
 }
 
+/** Liste des contacts **/
+
 .contact{
     color: #eff9f2;
     font-family: 'glacial-indifference-regular', sans-serif;
@@ -134,16 +146,23 @@ body{
     top: 210px;
 }
 
+/** Liens de la liste des contacts **/
+
 .contact a{
     color: #eff9f2;
     text-decoration: none;
     font-family: 'glacial-indifference-regular', sans-serif;
 }
 
+
+/** Au survol des liens dans le container contact **/
+
 .contact a:hover{
     text-decoration: underline;
     color: #78a1bb;
 }
+
+/** Liste des compétences **/
 
 .competences{
     color: #eff9f2;
@@ -156,6 +175,8 @@ body{
     position: relative;
     top: 210px;
 }
+
+/** Liste des intérêts **/
 
 .list-interest{
     color: #eff9f2;
@@ -170,11 +191,15 @@ body{
     top: 210px;
 }
 
+/** Partie principale du CV **/
+
 .main-part{
     position: absolute;
     top: 230px;
     left: 460px;
 }
+
+/** Titre du poste **/
 
 .post-title{
     font-family: 'glacial-indifference-bold', sans-serif;
@@ -182,11 +207,15 @@ body{
     line-height: 5px;
 }
 
+/** Information sur la durée d'occupation du poste **/
+
 .post-info{
     font-family: 'glacial-indifference-regular', sans-serif;
     line-height: 5px;
     font-size: 20px;
 }
+
+/** Description du poste occupé **/
 
 .post-description{
     font-family: 'glacial-indifference-regular', sans-serif;
@@ -194,7 +223,9 @@ body{
     line-height: 25px;
 }
 
-.school-description{
+/* Description liée à l'école */
+
+.school-description{ 
     line-height: 10px;
     font-family: 'glacial-indifference-regular', sans-serif;
     font-size: 18px;
